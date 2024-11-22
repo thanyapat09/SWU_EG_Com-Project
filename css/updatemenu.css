@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;600&display=swap');
+
+
+
+:root {
+    --white2 : #f1f1f1;
+    --light-color:#666;
+    --border:.1rem solid var(--light-color);
+    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+    --orange: #e79121;
+}
+
+.add_menu_btn {
+    text-align: center;
+}
+
+.btn3 {
+	color: var(--green);
+	border-radius: 10px;
+	font-size: 1rem;
+	padding: 1rem 1rem;
+    border: none;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+    
+}
+
+.primary-btn3 {
+	color: var(--white1);
+	background: var(--green);
+    cursor: pointer;
+}
+
+.btn4 {
+	color: var(--orange);
+	border-radius: 10px;
+	font-size: 1rem;
+	padding: 1rem 1rem;
+    border: none;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+}
+
+.primary-btn4 {
+	color: var(--white1);
+	background: var(--orange);
+    cursor: pointer;
+}
+
+.btn5 {
+	color: var(--red);
+	border-radius: 10px;
+	font-size: 1rem;
+	padding: 1rem 1rem;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+}
+
+.primary-btn5 {
+	color: var(--white1);
+	background: var(--red);
+    cursor: pointer;
+}
+
+.btn6 {
+	color: var(--orange);
+	border-radius: 10px;
+	font-size: 1rem;
+	padding: 1rem 1rem;
+    border: none;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+}
+
+.primary-btn6 {
+	color: var(--white1);
+	background: var(--orange);
+    cursor: pointer;
+}
+
+.btn7 {
+	color: var(--red);
+	border-radius: 10px;
+	font-size: 1rem;
+	padding: 1rem 1rem;
+    border: none;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+}
+
+.primary-btn7 {
+	color: var(--white1);
+	background: var(--red);
+    cursor: pointer;
+}
+
+
+.menuadd_btn {
+    display: flex;
+    gap: 0;
+}
+
+.add_menu form{
+    max-width: 22rem;
+    margin: 0 auto;
+    background-color: var(--white);
+    border-radius: 0.5rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    padding: 2rem;
+}
+
+.add_menu form .box {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    color: var(--black1);
+    border-radius: 0.5rem;
+    background-color: var(--white2);
+    margin-bottom: 1rem;
+    border: var(--border);
+}
+
+
+.heading {
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .add_menu form {
+        max-width: 30rem;
+        padding: 2rem;
+    }
+    .heading {
+        font-size: 2rem;
+    }
+}
+
+
+.error {
+    width: 94%;
+    font-size: 1.4rem;
+    margin: 0 auto;
+    padding: 0.3rem 0.1rem;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.success {
+    font-size: 1.4rem;
+    margin: 0 auto;
+    color: #3c763d;
+    background: #dff9d8;
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+    width: 94%;
+    border-radius: 5px;
+    padding: 0.3rem 0.1rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .success {
+        width: 40%;
+    }
+    .error {
+        width: 50%;
+    }
+}
+
+
+.showmenu .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 18rem);
+    gap:1.5rem;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 4rem;
+ }
+ 
+ .showmenu .box-container .box{
+    padding:2rem;
+    text-align: center;
+    border-radius: .5rem;
+    border:var(--border);
+    background-color: var(--white1);
+    box-shadow: var(--box-shadow);
+    position: relative;
+ }
+ 
+ .showmenu .box-container .box img{
+    width: 100%;
+ }
+ 
+ .showmenu .box-container .box .price{
+    top:1rem; left:1rem;
+    border-radius: .5rem;
+    color:var(--black1);
+    padding:.5rem 1rem;
+    font-size: 2rem;
+ }
+ 
+ .showmenu .box-container .box .price span{
+    font-size: 2.5rem;
+ }
+ 
+ .showmenu .box-container .box .name{
+    margin:1rem 0;
+    font-size: 2rem;
+ }
+
+ .updatemenu form{
+    max-width: 20rem;
+    margin:0 auto;
+    background-color: var(--white1);
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    padding:2rem;
+    border:var(--border);
+    padding-top: 1.5rem;
+ }
+ 
+ .updatemenu form .box{
+    width: 100%;
+    padding:1.4rem;
+    font-size: 1rem;
+    color:var(--black);
+    border-radius: .5rem;
+    border:var(--border);
+    background-color: var(--light-bg);
+    margin:1rem 0;
+ }
+ 
+ .updatemenu form img{
+    width: 100%;
+ }
+ 
+
+ @media only screen and (min-width: 768px) {
+    .updatemenu form{
+        max-width: 30rem;
+     }
+     .updatemenu form .box{
+        font-size: 1.4rem;
+     }
+     
+ }

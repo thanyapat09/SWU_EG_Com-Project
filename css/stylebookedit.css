@@ -1,0 +1,152 @@
+:root{
+    --green1 : #07861c ;
+    --lightred: #ffe1e1;
+    --lightred2: #ff9b9b;
+    --black1: #413a3a;
+	--black2: #3f3c3c;
+    --black3: #000000;
+    --red1: #642626;
+    --white1: #e8e8e8;
+
+}
+
+
+#form {
+	padding: 1rem 0;
+    width: 90%;
+    margin: 0 auto;
+    
+}
+.form__title {
+	font-size: 1.8rem;
+	color: var(--black1);
+	font-weight: 600;
+}
+.form__wrapper {
+	padding: 3rem 0;
+}
+.form__wrapper form {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 2rem;
+}
+.form__group label {
+	font-size: 1.6rem;
+	color: var(--black2);
+	font-weight: 500;
+}
+.form__group input,
+.form__group textarea,
+.form__group select {
+	width: 100%;
+	border: none;
+	background-color: var(--lightred2);
+	font-size: 1.4rem;
+	font-weight: 500;
+	padding: 1.5rem;
+	border-radius: 8px;
+	margin-top: 0.5rem;
+	color: var(--black-2);
+}
+.form__group textarea {
+	resize: vertical;
+}
+.form__wrapper button[type='submit'] {
+	width: max-content;
+	border: none;
+	padding: 1rem 4rem;
+	font-weight: 500;
+	letter-spacing: 0.1rem;
+}
+@media only screen and (min-width: 768px) {
+	.form__title {
+		font-size: 3.6rem;
+	}
+	.form__wrapper {
+		padding: 5rem 0;
+	}
+	.form__wrapper form {
+		grid-template-columns: 1fr;
+	}
+	.form__group__full {
+		grid-column: 1/3;
+	}
+	.form__group label {
+		font-size: 1.8rem;
+	}
+	.form__group input,
+	.form__group textarea,
+	.form__group select {
+		font-size: 1.8rem;
+		padding: 2rem;
+		margin-top: 1.5rem;
+	}
+    #form {
+        width: 60%;
+        margin-left: 2rem;
+        margin: 0 auto;
+    }
+}
+
+.btn3 {
+    color: var(--red1);
+	border-radius: 10px;
+	font-size: 1.4rem;
+	padding: 0.6rem 0.8rem;
+	cursor: pointer;
+}
+
+.primary-btn3 {
+    color: var(--white1);
+	background: var(--red1);
+}
+
+.btnbook_update {
+	text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    input {
+        width: 30%;
+    }
+}
+
+
+.error {
+    width: 94%;
+    font-size: 1.4rem;
+    margin: 0 auto;
+    padding: 0.3rem 0.1rem;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.success {
+    font-size: 1.2rem;
+    margin: 0 auto;
+    color: #3c763d;
+    background: #dff9d8;
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+    width: 94%;
+    border-radius: 5px;
+    padding: 0.3rem 0.1rem;
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .success {
+        width: 65%;
+        margin: 0 ;
+        margin-bottom: 2rem;
+    }
+    .error {
+        width: 40%;
+    }
+	.setext {
+		padding-left: 1rem;
+	}
+}

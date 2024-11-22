@@ -1,0 +1,70 @@
+/*intro section style*/
+.introtop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    gap: 5rem;
+}
+
+.introleftall {
+    max-width: 300px;
+}
+
+.introimgall {
+    max-width:400px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.introheading {
+    font-family: 'Kanit';
+    font-weight: 600;
+    line-height: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: var(--black1);
+}
+
+.introinfo {
+    text-align: center;
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+    color: var(--black2);
+}
+
+.butonleft {
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .introtop {
+        flex-direction: row;
+        gap: 0;
+    }
+    .introleft {
+        flex: 3;
+    }
+    .introright {
+        flex: 4;
+    }
+    .introheading {
+        font-size: 3.6rem;
+        margin-bottom: 2rem;
+        text-align: left;
+        line-height: 3.5rem;
+    }
+    .introinfo {
+        margin-bottom: 2rem;
+        text-align: left;
+        font-size: 1.8rem;
+    }
+    .buttonleft {
+        text-align: left;
+    }
+    .introimgall {
+        max-width: none;
+        width: 90%;
+    }
+}

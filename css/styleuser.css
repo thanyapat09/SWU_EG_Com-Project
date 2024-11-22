@@ -1,0 +1,42 @@
+.error {
+    width: 94%;
+    font-size: 1.4rem;
+    margin: 0 auto;
+    padding: 0.3rem 0.1rem;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.success {
+    font-size: 1.2rem;
+    margin: 0 auto;
+    color: #3c763d;
+    background: #dff9d8;
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+    width: 94%;
+    border-radius: 5px;
+    padding: 0.3rem 0.1rem;
+    text-align: center;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    .success {
+        width: 65%;
+        margin: 0 ;
+        margin-bottom: 2rem;
+    }
+    .error {
+        width: 40%;
+    }
+}
+
+.btnuser {
+    display: flex;
+    gap: 1rem;
+}

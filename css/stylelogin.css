@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600&display=swap');
+:root{
+    --green1 : #07861c ;
+    --lightred: #ffe1e1;
+    --lightred2: #ff9b9b;
+    --black1: #413a3a;
+	--black2: #3f3c3c;
+    --black3: #000000;
+    --red1: #642626;
+    --white1: #e8e8e8;
+    --red2: #bd0000 ;
+    --blue: #182cdf;
+}
+
+.container {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+* {
+    font-family: 'Kanit';
+}
+
+.admintext {
+    font-family: 'Kanit';
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.admintop {
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.admin_form {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+input {
+    border-radius: 12px;
+    width: 75%;
+	font-size: 1.4rem;
+	font-weight: 500;
+	padding: 1rem;
+}
+
+.admin_form form {
+    display: grid;
+    gap: 1rem;
+}
+
+.btn {
+    color: var(--red1);
+	font-family: 'Kanit';
+	font-weight: 500;
+	border-radius: 10px;
+	font-size: 1.4rem;
+	padding: 0.6rem 0.8rem;
+}
+
+.primary-btn {
+    color: var(--white1);
+	background: var(--red1);
+}
+
+.admin_form button[type='submit'] {
+    width: max-content;
+	padding: 0.6rem 2rem;
+	font-weight: 500;
+}
+
+@media only screen and (min-width: 768px) {
+    input {
+        width: 25%;
+    }
+}
+
+#coppyright{
+	padding: 2rem 0;
+}
+.coppyrighttext {
+    font-family: 'Kanit';
+	font-size: 1.2rem;
+	text-align: center;
+}
+@media only screen and (min-width: 768px) {
+	.coppyrighttext {
+		font-size: 1.4rem;
+		text-align: center;
+	}
+}
+
+/*register*/
+
+.regis {
+    text-align: right;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 93%;
+}
+
+.regis_text {
+    color: var(--blue);
+    font-size: 1.2rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.regis :hover .regis_text {
+    color: var(--red2);
+}
+
+@media only screen and (min-width: 768px) {
+    .regis {
+        width: 65%;
+    }
+}
+
+.error {
+    width: 94%;
+    font-size: 1.4rem;
+    margin: 0 auto;
+    padding: 0.3rem 0.1rem;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.success {
+    font-size: 2rem;
+    margin: 0 auto;
+    color: #3c763d;
+    background: #dff9d8;
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+    width: 94%;
+    border-radius: 5px;
+    padding: 0.3rem 0.1rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .success {
+        width: 40%;
+    }
+    .error {
+        width: 40%;
+    }
+}
