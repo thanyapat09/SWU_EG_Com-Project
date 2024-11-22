@@ -1,3 +1,5 @@
+Use Vs Code to run code
+
 Use xampp to simulate the server
 
 Open Xampp and open Apache and Mysql.
