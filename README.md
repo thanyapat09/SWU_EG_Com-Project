@@ -13,5 +13,5 @@ import file dashboard_db.sql
 
 /localhost/project/index.php is the user part
 
-/localhost/project/dashboard.php is the admin part (Password Username:nabe Password:1234)
+/localhost/project/dashboard.php is the admin part (Username:nabe Password:1234)
 
